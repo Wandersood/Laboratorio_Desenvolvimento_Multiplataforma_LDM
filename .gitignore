@@ -1,0 +1,97 @@
+# -------------------------
+# Compilação e Build
+# -------------------------
+# Diretórios de saída de compilação
+build/
+out/
+target/
+
+# Arquivos gerados pelo Kotlin
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.class
+*.kdoc
+*.tmp
+
+# Arquivos de log
+*.log
+logs/
+*.log.*
+
+# -------------------------
+# IDE: IntelliJ IDEA
+# -------------------------
+# Arquivos e diretórios específicos do IntelliJ
+.idea/
+!/.idea/misc.xml
+!/.idea/encodings.xml
+!/.idea/vcs.xml
+!/.idea/copyright/
+!/.idea/modules.xml
+
+# Arquivos de workspace do IntelliJ (geralmente não devem ser versionados)
+*.iws
+*.iml
+*.ipr
+
+# Arquivos gerados pelo IntelliJ
+# Exclui todos, mas permite alguns arquivos de configuração essenciais (acima)
+.idea/*
+
+# -------------------------
+# IDE: Visual Studio Code
+# -------------------------
+.vscode/
+.history/
+
+# -------------------------
+# Ferramentas de Build
+# -------------------------
+# Gradle
+.gradle/
+captures/
+.gradletasknamecache
+gradle-wrapper.jar
+!gradle-wrapper.jar
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+build.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+
+# -------------------------
+# Arquivos de Sistema Operacional
+# -------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# -------------------------
+# Outros
+# -------------------------
+# Arquivos de configuração local e segredos
+local.properties
+.env
+*.env
+*.env.local
+
+# Arquivos do Ktor (se aplicável)
+.ktor/
+
+# Arquivos de dump de heap
+*.hprof
