@@ -1,0 +1,5 @@
+### ---------------------------------------------------
+### CONSULTAR TODOS OS CONTATOS
+### ---------------------------------------------------
+# Use esta requisição para verificar o resultado das suas operações de PUT e DELETE.
+GET http://localhost:8080/contato

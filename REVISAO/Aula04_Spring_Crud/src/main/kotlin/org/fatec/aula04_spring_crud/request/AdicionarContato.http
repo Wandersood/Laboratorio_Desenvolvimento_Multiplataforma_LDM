@@ -1,0 +1,10 @@
+### Adicionar um novo contato
+POST http://localhost:8080/contato
+Content-Type: application/json
+
+{
+  "id": 3,
+  "nome": "Beltrano Pereira",
+  "telefone": "77777-7777",
+  "email": "beltrano@email.com"
+}

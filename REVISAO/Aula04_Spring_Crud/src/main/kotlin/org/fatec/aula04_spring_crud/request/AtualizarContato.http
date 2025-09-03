@@ -1,0 +1,13 @@
+### ---------------------------------------------------
+### ATUALIZAR UM CONTATO EXISTENTE (NOVO)
+### ---------------------------------------------------
+# Esta requisição vai tentar atualizar o contato com ID = 1.
+# O corpo (body) contém os novos dados para o contato.
+PUT http://localhost:8080/contato/1
+Content-Type: application/json
+
+{
+  "nome": "Fulano de Tal ATUALIZADO",
+  "telefone": "11111-1111",
+  "email": "fulano.novo@email.com"
+}

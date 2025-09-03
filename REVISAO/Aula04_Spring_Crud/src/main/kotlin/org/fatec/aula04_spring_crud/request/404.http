@@ -1,0 +1,7 @@
+### ---------------------------------------------------
+### BÔNUS: Testando o caso de erro (404 Not Found)
+### ---------------------------------------------------
+# Esta requisição tenta atualizar um contato que não existe (ID 99).
+# A resposta esperada é um erro "404 Not Found", provando que sua lógica de erro está funcionando.
+PUT http://localhost:8080/contatos/99
+Content-Type: application/json

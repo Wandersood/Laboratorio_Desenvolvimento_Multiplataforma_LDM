@@ -1,0 +1,6 @@
+### ---------------------------------------------------
+### REMOVER UM CONTATO EXISTENTE (NOVO)
+### ---------------------------------------------------
+# Esta requisição vai deletar o contato com ID = 2.
+# Note que requisições DELETE não precisam de um corpo (body).
+DELETE http://localhost:8080/contato/2
